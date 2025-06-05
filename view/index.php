@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="acao.php" method="get">
-        <input type="button" value="vai se fuder.com">
-        <input type="submit" value="pourra.br">
+    <form action="/acao" method="post">
+        <input type="text" name="texto" value="vai se fuder.com">
+        <input type="submit" value="enviar">
     </form>
     
 </body>
