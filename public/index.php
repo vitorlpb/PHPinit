@@ -1,5 +1,5 @@
 <?php 
-,
+
 $route = strpos($_SERVER['REQUEST_URI'], 'acao') > 0 ? '/../acao.php' : '';
 
 if (!empty($route)) {
