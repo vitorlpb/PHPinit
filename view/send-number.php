@@ -1,6 +1,6 @@
 <?php
 
-$query = $_POST['texto'];
+$query = $_GET['number'];
 
 echo $query;
 
